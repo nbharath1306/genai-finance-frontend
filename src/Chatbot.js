@@ -16,7 +16,8 @@ function Chatbot() {
 
     try {
       const response = await axios.post(
-        "https://genai-finance-backend.onrender.com/chat",  // ✅ Replace with your Render backend URL
+        ""http://localhost:5000/chat"  // Local backend URL for testing
+",  // ✅ Replace with your Render backend URL
         { text: input }
       );
 
