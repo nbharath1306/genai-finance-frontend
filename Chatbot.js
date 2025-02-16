@@ -14,7 +14,7 @@ function Chatbot() {
 
     try {
       const response = await axios.post(
-        "https://your-backend-url.onrender.com/chat", // ✅ Replace with your Render URL later
+        "https://genai-finance-backend.onrender.com/chat", // ✅ Replace with your Render URL later
         { text: input }
       );
 
